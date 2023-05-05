@@ -2,10 +2,10 @@ import React from 'react';
 import { useHistory } from 'react-router-dom';
 import Button from '../Button/Button';
 import KanguruhLogo from '../../images/kanguruh_logo.png';
-import InstagramLogo from '../../images/instagram.svg';
-import FacebookLogo from '../../images/facebook.svg';
-import WhatsAppLogo from '../../images/whatsapp.svg';
-import YouTubeLogo from '../../images/youtube.svg';
+import InstagramLogo from '../../images/instagram.png';
+import FacebookLogo from '../../images/facebook.png';
+import WhatsAppLogo from '../../images/whatsapp.png';
+import YouTubeLogo from '../../images/youtube.png';
 import './Header.css'
 
 function Header() {
