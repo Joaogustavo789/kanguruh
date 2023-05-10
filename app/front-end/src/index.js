@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Favicon from 'react-favicon';
-import KanguruhIcon from './images/kanguruh_icon.png';
+import KanguruhIcon from './images/kanguruh_logo_red.png';
 import './index.css';
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';
