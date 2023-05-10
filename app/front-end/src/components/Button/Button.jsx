@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
+import './Button.css';
 
 function Button(props) {
   const { children, click } = props;
 
   return (
-      <button type="button" onClick={ click }>{ children }</button>
+      <button className="Buttons" type="button" onClick={ click }>{ children }</button>
   )
 }
 

@@ -1,3 +1,9 @@
 .Tempo-Mercado {
-  height: 400px;
+  height: 300px;
+  padding: 10px;
+  /* margin-top: 10px; */
+}
+
+.Mapa-Atuação {
+  padding: 10px;
 }
