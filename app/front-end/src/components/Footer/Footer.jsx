@@ -3,41 +3,49 @@ import MapaLogo from '../../images/mapa.png';
 import ContatoLogo from '../../images/contato.png';
 import TelefoneTocando from '../../images/telefone-tocando.png';
 import CompanhiaLogo from '../../images/companhia.png';
-import EmailLogo from '../../images/gmail.png'
+import EmailLogo from '../../images/gmail.png';
+import KanguruhLogoRed from '../../images/kanguruh_logo.png';
+
 import './Footer.css';
 
 function Footer() {
   return (
     <footer className="Footer">
-      <section>
-        <div>
-          <img src={ MapaLogo } alt="Logo de um mapa" className="Mapa-Logo" />
-          <p>Localização</p>
-        </div>
-        <p>Av. Liberdade, 2246</p>
-        <p>São Bento - Bayeux/PB</p>
-        <p>CEP: 58111-600</p>
+      <section className="Copyright">
+        <img className="Kanguruh-Logo-Red" src={ KanguruhLogoRed } alt="" />
+        <p>© Känguruh - 2023 - Todos os direitos reservados. Política de Privacidade.</p>
       </section>
 
-      <section>
-        <div>
+      <section className="Section-Contact">
+        <div className="Atendente">
           <img src={ ContatoLogo } alt="Logo do Contato" className="Contato-Logo" />
           <p>Contato</p>
         </div>
-        <div>
+        <div className="Contato">
           <img src={ CompanhiaLogo } alt="Logo de uma companhia" className="Companhia-Logo" />
           <p>CNPJ: 00.386.643/0001-15</p>
         </div>
-        <div>
+        <div className="Contato">
           <img src={ TelefoneTocando } alt="Logo de um telefone tocando" className="Telefone-Tocando" />
           <p>(83) 3232-7435</p>
         </div>
-        <div>
+        <div className="Contato">
           <img src={ EmailLogo } alt="Logo de email" className="Email-Logo" />
           <p>contato@kanguruh.ind.br</p>
         </div>
       </section>
-      <p>© Känguruh - 2023 - Todos os direitos reservados. Política de Privacidade.</p>
+
+      <section className="Section-Location">
+        <div className="Localização">
+          <img src={ MapaLogo } alt="Logo de um mapa" className="Mapa-Logo" />
+          <p>Localização</p>
+        </div>
+        <div className="Address">
+          <p>Av. Liberdade, 2246</p>
+          <p>São Bento - Bayeux/PB</p>
+          <p>CEP: 58111-600</p>
+        </div>
+      </section>
     </footer>
   )
 }
