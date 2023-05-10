@@ -37,7 +37,7 @@ function AboutPage() {
 
       <section>
         <p>A Känguruh deixando sua marca pelo Brasil</p>
-        <img src={ KanguruhMapa } alt="" />
+        <img src={ KanguruhMapa } alt="Foto de um mapa de atuação" />
       </section>
       <Footer />
     </main>
