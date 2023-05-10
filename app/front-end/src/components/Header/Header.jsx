@@ -38,7 +38,7 @@ function Header() {
   const linkToYouTube = 'https://www.youtube.com/@kanguruh_ind_br';
 
   return (
-    <header>
+    <header className="Header">
       <img src={ KanguruhLogo } alt="Logo da Kanguruh" className="Kanguruh-Logo" />
       <p>Indústria metalúrgica de gradis eletrosoldados, telas metálicas, portões, porteiras e outros produtos metálicos</p>
       <Button
