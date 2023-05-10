@@ -23,6 +23,10 @@ function Header() {
     history.push('/produtos-kanguruh')
   }
 
+  const handleServicesPage = () => {
+    history.push('/servicos')
+  }
+
   const handleContactPage = () => {
     history.push('/contato')
   }
@@ -39,31 +43,40 @@ function Header() {
 
   return (
     <header className="Header">
-      <img src={ KanguruhLogo } alt="Logo da Kanguruh" className="Kanguruh-Logo" />
-      <p>Indústria metalúrgica de gradis eletrosoldados, telas metálicas, portões, porteiras e outros produtos metálicos</p>
-      <Button
-        click={ handleHomePage }
-        children="Inicio" 
-      />
-      <Button 
-        click={ handleAboutPage }
-        children="Quem Somos" 
-      />
-      <Button 
-        click={ handleProductsPage }
-        children="Produtos" 
-      />
-      <Button 
-       click={ handleContactPage }
-       children="Contato" 
-      />
+      <section className="Box-Image-Text">
+        <img src={ KanguruhLogo } alt="Logo da Kanguruh" className="Kanguruh-Logo" />
+        <p className="Descrição-Empresa">Indústria metalúrgica de gradis eletrosoldados, telas metálicas, portões, porteiras e outros produtos metálicos</p>
+      </section>
 
-      <a href={linkToInstagram} target="_blank" rel="noopener noreferrer">{ instagramLogo }</a>
-      <a href={linkToFacebook} target="_blank" rel="noopener noreferrer">{ facebookLogo }</a>
-      <a href={linkToWhatsApp} target="_blank" rel="noopener noreferrer">{ whatsappLogo }</a>
-      <a href={linkToYouTube} target="_blank" rel="noopener noreferrer">{ youtubeLogo }</a>
+      <section className="Buttons-and-Links">
+        <Button
+          click={ handleHomePage }
+          children="Inicio" 
+        />
+        <Button 
+          click={ handleAboutPage }
+          children="Quem Somos" 
+        />
+        <Button 
+          click={ handleProductsPage }
+          children="Produtos" 
+        />
+        <Button 
+        click={ handleServicesPage }
+        children="Serviços" 
+        />
+        <Button 
+        click={ handleContactPage }
+        children="Contato" 
+        />
+
+        <a className="Links" href={linkToInstagram} target="_blank" rel="noopener noreferrer">{ instagramLogo }</a>
+        <a className="Links" href={linkToFacebook} target="_blank" rel="noopener noreferrer">{ facebookLogo }</a>
+        <a className="Links" href={linkToWhatsApp} target="_blank" rel="noopener noreferrer">{ whatsappLogo }</a>
+        <a className="Links" href={linkToYouTube} target="_blank" rel="noopener noreferrer">{ youtubeLogo }</a>
+      </section>
     </header>
   )
 }
-
+ 
 export default Header
