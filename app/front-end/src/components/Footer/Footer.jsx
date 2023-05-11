@@ -5,6 +5,9 @@ import TelefoneTocando from '../../images/telefone-tocando.png';
 import CompanhiaLogo from '../../images/companhia.png';
 import EmailLogo from '../../images/gmail.png';
 import KanguruhLogoRed from '../../images/kanguruh_logo.png';
+import EstradaLogo from '../../images/estrada.png';
+import CidadeLogo from '../../images/cidade.png';
+import CEPLogo from '../../images/caixa-de-correio.png';
 
 import './Footer.css';
 
@@ -41,8 +44,15 @@ function Footer() {
           <p>Localização</p>
         </div>
         <div className="Address">
+          <img src={ EstradaLogo } alt="Logo de uma estrada" className="Estrada-Logo" />
           <p>Av. Liberdade, 2246</p>
+        </div>
+        <div className="Address">
+          <img src={ CidadeLogo } alt="Logo de uma cidade" className="Cidade-Logo" />
           <p>São Bento - Bayeux/PB</p>
+        </div>
+        <div className="Address">
+          <img src={ CEPLogo } alt="Logo de uma caixa de correio" className="CEP-Logo" />
           <p>CEP: 58111-600</p>
         </div>
       </section>

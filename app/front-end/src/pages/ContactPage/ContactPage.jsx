@@ -4,6 +4,10 @@ import Footer from '../../components/Footer/Footer';
 import Button from '../../components/Button/Button';
 
 function ContactPage() {
+  const submitClient = () => {
+    alert('Esse botão ainda não funciona tá.')
+  }
+
   return (
     <main>
       <Header />
@@ -51,7 +55,7 @@ function ContactPage() {
         </label>
         <label htmlFor="">
           <Button
-            click=""
+            click={ submitClient }
             children="Enviar"
           />
         </label>

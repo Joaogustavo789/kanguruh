@@ -15,22 +15,18 @@
 }
 
 .Descrição-Empresa {
-  width: 641.06px;
-  height: 15px;
-  left: 0px;
-  top: 98.89px;
-
+  align-items: center;
+  /* color: rgb(82, 82, 82); */
+  display: flex;
   font-family: 'Roboto';
+  font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  font-size: 13px;
+  height: 15px;
+  left: 0px;
   line-height: 21px;
-  /* or 165% */
-
-  display: flex;
-  align-items: center;
-
-  color: #525252;
+  top: 98.89px;
+  width: 641.06px;
 }
 
 .Buttons-and-Links {
