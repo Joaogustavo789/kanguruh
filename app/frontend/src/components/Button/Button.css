@@ -1,0 +1,19 @@
+.Buttons {
+  background-color: black;
+  border-radius: 13px;
+  border: 1px solid black;
+  color: white;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  height: 40px;
+}
+
+.Buttons:hover {
+  background-color: red;
+  border: 1px solid red;
+  color: white;
+  cursor: pointer;
+  scale: 1.1;
+}

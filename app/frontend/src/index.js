@@ -1,16 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Favicon from 'react-favicon'
-import KanguruhIcon from './images/kanguruh_icon.png'
+import Favicon from 'react-favicon';
+import KanguruhIcon from './images/kanguruh_logo_red.png';
 import './index.css';
 import App from './App';
+import { BrowserRouter } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Favicon url={ KanguruhIcon }/>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>
 );
 

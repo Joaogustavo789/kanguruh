@@ -1,0 +1,111 @@
+.Footer {
+  background-color: rgb(193, 193, 193);
+  display: flex;
+  padding: 10px;
+  width: 100%;
+}
+
+.Section-Contact {
+  margin-left: 120px;
+}
+
+.Section-Location {
+  margin-left: 150px;
+}
+
+.Copyright {
+  padding: 10px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.Kanguruh-Logo-Red {
+  filter: grayscale(1);
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.Atendente {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.Contato {
+  align-items: center;
+  display: flex;
+  padding: 10px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.Contato-Logo {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.Telefone-Tocando {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.Companhia-Logo {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.Email-Logo {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.Mapa-Logo {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.Localização {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.Address {
+  align-items: center;
+  display: flex;
+  padding: 10px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.Estrada-Logo {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.Cidade-Logo {
+  height: 30px;
+  margin-right: 10px;
+}
+.CEP-Logo {
+  height: 30px;
+  margin-right: 10px;
+}
