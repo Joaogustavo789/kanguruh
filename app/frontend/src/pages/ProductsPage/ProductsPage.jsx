@@ -7,7 +7,7 @@ function ProductsPage() {
   return (
     <main>
       <Header />
-      <div>ProductsPage</div>
+      <p>Áreas de atuação</p>
       <Card />
       <Footer />
     </main>
