@@ -4,7 +4,8 @@ import Footer from '../../components/Footer/Footer';
 import KanguruhMapa from '../../images/mapa-kanguruh.png';
 import TempoMercado from '../../images/tempo-de-mercado.png';
 import './HomePage.css';
-import Card from '../../components/Card/Card';
+import CardProducts from '../../components/Cards/CardProducts/CardProducts';
+import CardServices from '../../components/Cards/CardServices/CardServices';
 
 function HomePage() {
   return (
@@ -13,7 +14,8 @@ function HomePage() {
       <img src={ TempoMercado } alt="Foto do tempo de atuação" className="Tempo-Mercado" />
       <section>
         <p>Conheça nossos segmentos de atuação</p>
-        <Card />
+        <CardProducts />
+        <CardServices />
       </section>
 
       <section>

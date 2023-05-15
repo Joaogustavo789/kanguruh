@@ -6,7 +6,7 @@ function ConstrucaoCivilPage() {
   return (
     <main>
       <Header />
-      <div>CONSTRUÇÃO CIVIL</div>
+      <p>CONSTRUÇÃO CIVIL</p>
       <Footer />
     </main>
   )
