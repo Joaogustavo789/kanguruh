@@ -1,17 +1,15 @@
 import React from 'react';
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
-import CardServices from '../../components/Cards/CardServices/CardServices';
 
-function ServicesPage() {
+function SerralheriaPage() {
   return (
     <main>
       <Header />
-      <p>Serviços</p>
-      <CardServices />
+      <p>SERRALHERIA INDUSTRIAL</p>
       <Footer />
     </main>
   )
 }
 
-export default ServicesPage;
+export default SerralheriaPage;
