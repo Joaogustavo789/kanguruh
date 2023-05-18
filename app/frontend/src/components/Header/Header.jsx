@@ -20,7 +20,7 @@ function Header() {
   }
 
   const handleProductsPage = () => {
-    history.push('/produtos-kanguruh')
+    history.push('/produtos')
   }
 
   const handleServicesPage = () => {
